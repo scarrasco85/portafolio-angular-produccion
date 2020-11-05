@@ -1,0 +1,29 @@
+{
+    "name": "api-rest-portafolio",
+    "version": "1.0.0",
+    "description": "Api Rest del proyecto Portafolio del Master de JavaScript.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/scarrasco85/backend-portafolio-angular.git"
+    },
+    "author": "Sergio Carrasco García",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/scarrasco85/api-rest-portafolio/issues"
+    },
+    "homepage": "https://github.com/scarrasco85/api-rest-portafolio#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "connect-multiparty": "^2.2.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.7.3"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.3"
+    }
+}
